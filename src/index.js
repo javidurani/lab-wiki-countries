@@ -1,12 +1,15 @@
+import logo from './logo.svg';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom';
+import Navbar from './components/Navbar.js'
+import './components/Navbar.css'
+import CountriesList from './components/CountriesList'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
   </React.StrictMode>,
   document.getElementById('root')
 );
