@@ -1,24 +1,21 @@
-.topnav{
-    overflow: hidden;
-    background-color:blue;
+.nav{
+    background-color: aqua;
+    border: 5px double blue;
+    padding: 10px;
+    font-size: large;
+    margin: 20px;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: blue;
-    color: lightblue;
-  }
-  
-  .topnav a.active {
-    background-color: #4ca0af;
-    color: white;
-  }
+.list{
+    background-color: white;
+    border: 2px solid blue;
+    padding: 10px;
+    font-size: medium;
+    margin: 20px;
+    font-size: medium;
+}
 
+.text{
+    margin: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
