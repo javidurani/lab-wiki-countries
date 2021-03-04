@@ -7,6 +7,7 @@ import './components/Navbar.css'
 import Navbar from './components/Navbar.js'
 import CountryList from './components/CountryList.js'
 import reactDom from 'react-dom';
+import CountryDetails from './components/CountryDetails.js'
 
 
 ReactDOM.render(
@@ -22,6 +23,14 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+ReactDOM.render(
+  <BrowserRouter>
+    <CountryDetails />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

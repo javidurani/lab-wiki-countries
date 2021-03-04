@@ -14,7 +14,7 @@ function CountryList(){
               {countries.map((country, i) => {
                   return(
                       <div className = "text" key = {i}>
-                          <img src = {country.flag}/><Link to {...`/:${country.cca3}`}>{country.name.common}</Link>
+                          <Link to {...`/:${country.cca3}`}>{country.flag} {country.name.common}</Link>
                       </div>
                   )
               })}
